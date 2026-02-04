@@ -49,3 +49,64 @@ test()
 
 var test2 = (a, b) => console.log(a + b)
 test2(5, 5)
+    //eg for arrow function
+
+    //the cons of arrow function is that we cannot put the arguments.
+    //but we can put in latest arrow fnction. i have no idea
+
+    //IIFE: when we create function . it exuture immedialty. 
+    // iife = immediatley emnived function expression
+
+    //example 
+
+    (function () {
+        console.log("testing function")
+
+    })()//() this is what we call it immediately
+//used only once
+
+///this function is called annnomous function
+//function that doesnot have name
+
+//scope
+//we have variable , function, objects. in what context define the scope
+//three tyoes of scope
+//global scope. applied every where
+//function scope
+//bloack scope
+// function scope is and blocvk scope is alos called local scope
+
+//global
+var lname = "Ranjitkar"
+console.log(lname)
+
+function func() {
+    console.log(lname)
+}
+
+func()
+
+
+//function scope
+function func2() {
+    var num = 10
+    console.log(num)
+}
+
+func2()
+console.log(num)
+
+
+//Block scope
+
+{
+    var x = 20
+    console.log(x)
+}
+console.log(x)
+
+
+
+
+
+
