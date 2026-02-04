@@ -48,4 +48,69 @@ console.log(name[0])
 //gives result b
 
 //string is immutable
+name[4] = "y"
+console.log(name) //it will give the same bishal
+
+//string is immutable therefore it gives protection like password not changed
+//no confusion on data 
+//and saves few storage
+
+//few methods of strings
+
+//finding the length of the string 
+console.log(name.length)
+
+//combining the two strings
+let first_name = "bishal"
+let last_name = "ranjitkar"
+let full_name = first_name.concat(last_name)
+
+console.log(full_name)
+//or use 
+console.log(last_name + first_name)
+
+//convert into uppercase
+
+console.log(full_name.toUpperCase())
+
+//to lower case
+
+console.log(last_name.toLowerCase())
+
+//another method to find the index
+console.log(name.charAt(4))
+
+//imp concept slicing
+console.log(full_name)
+
+console.log(full_name.slice(2)) //shalranjitkar
+console.log(full_name.slice(2, 5)) //shal
+console.log(full_name.slice(-5)) //itkar
+console.log(full_name.slice(-5, -2)) //itk
+
+//indexof method
+
+console.log(full_name.indexOf("a"))
+
+//if the char is not present
+
+console.log(full_name.indexOf("z"))// gives -1
+
+//trim
+
+let word = " test "
+console.log(word.trim())//trim the extra space
+
+//split
+//break into character of string
+
+console.log(full_name.split(""))/*[
+  'b', 'i', 's', 'h',
+  'a', 'l', 'r', 'a',
+  'n', 'j', 'i', 't',
+  'k', 'a', 'r'
+] */
+
+
+
 
