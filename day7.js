@@ -125,7 +125,22 @@ console.log(mixed.sort())
 
 //sorting words
 let zig = ["zig", "test", "apple", "banana", "cherry", "date", "fig"]
-console.log(zig.sort())
+console.log(zig.sort()) /*[
+  'apple',  'banana',
+  'cherry', 'date',
+  'fig',    'test',
+  'zig'
+] */
+
+let hello = [15, 40, 1, 13, 2]
+console.log(hello.sort()) //gives [1,13,15,2,40] 
+//to sort in ascending order
+console.log(hello.sort((a, b) => a - b)) //gives [1,2,13,15,40]
+//to sort in descending order
+console.log(hello.sort((a, b) => b - a)) //gives [40,15,13,2,1]
+
+
+
 
 
 
