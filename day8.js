@@ -120,4 +120,3 @@ console.log(city)
 console.log(name)
 
 
-//fior nested array
