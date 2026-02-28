@@ -1,0 +1,18 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "thisbis the 1st node.js prject for my learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "app"
+  ],
+  "author": "bishal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
