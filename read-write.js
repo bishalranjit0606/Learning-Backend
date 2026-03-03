@@ -45,3 +45,6 @@ fs.writeFile('output2.txt', 'hello again', (err) => {
 })
 
 console.log("after writing")
+
+
+
