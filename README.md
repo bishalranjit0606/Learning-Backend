@@ -6,11 +6,11 @@ This repository contains the concepts, practice code, and exercises I completed 
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 
 During this course, I focused on building a strong foundation in backend development using modern JavaScript technologies.
 
-### 🚀 Core Technologies
+### Core Technologies
 - Node.js (Runtime Environment)
 - Express.js (Web Framework)
 - MongoDB (Database)
@@ -18,7 +18,7 @@ During this course, I focused on building a strong foundation in backend develop
 
 ---
 
-## 🛠 Topics Covered
+## Topics Covered
 
 - Basic server setup using Node.js
 - Creating routes with Express
@@ -35,7 +35,7 @@ During this course, I focused on building a strong foundation in backend develop
 
 ---
 
-## 🎯 Purpose of This Repository
+## Purpose of This Repository
 
 The goal of this repository is to:
 - Document my backend learning progress
@@ -45,7 +45,7 @@ The goal of this repository is to:
 
 ---
 
-## 🔜 What’s Next?
+## What’s Next?
 
 My next repository will focus on building a complete backend project where I apply these concepts in a structured, real-world application.
 
